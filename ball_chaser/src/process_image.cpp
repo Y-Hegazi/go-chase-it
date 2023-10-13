@@ -21,7 +21,7 @@ public:
  
             if (column < img.step/3){
                 drive_comm.request.linear_x = 0.5;
-                drive_comm.request.angular_z = 0.5;}
+                drive_comm.request.angular_z = 0.75;}
           
             else if (column < (img.step/3 * 2)){
                 drive_comm.request.linear_x = 0.5;
@@ -29,7 +29,7 @@ public:
           
             else{
                 drive_comm.request.linear_x = 0.5;
-                drive_comm.request.angular_z = -0.5;}
+                drive_comm.request.angular_z = -0.75;}
             ball_flag = true;
             break;
          }
