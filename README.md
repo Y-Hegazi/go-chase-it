@@ -37,9 +37,18 @@ This repository is part of the Udacity Robotics Software Engineer Nanodegree pro
    roslaunch my_robot world.launch 
    ```
    ```bash
-   roslaunch ball_chaser ball_chaser.launch 
+   roslaunch ball_chaser ball_chaser.launch #You dont need it for localization
+   ```
+     ```bash
+   roslaunch my_robot amcl.launch #localization
    ```
    To test the robot you need to move any ball inside robot's environment.
+
+
+## Localization 
+
+![Localization](media/loc1.png)
+![Localization](media/loc2.png)
 
 ## Notes
 
@@ -48,4 +57,3 @@ This repository is part of the Udacity Robotics Software Engineer Nanodegree pro
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
