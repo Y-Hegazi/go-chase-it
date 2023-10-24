@@ -7,9 +7,9 @@
 
 <!-- tf -->
 
-<node name="tf" pkg="tf" type="static_transform_publisher"
+<!-- node name="tf" pkg="tf" type="static_transform_publisher"
     args="0 0 0 0 0 0 map odom 100">    
-</node>
+</node -->
 
 
 <!-- amcl -->
