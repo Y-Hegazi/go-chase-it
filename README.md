@@ -1,4 +1,4 @@
-# Robotics Software Engineer Nanodegree - Go Chase It Project
+# Robotics Software Engineer Nanodegree - Where Am I?
 
 ## Overview
 
@@ -8,10 +8,14 @@ This repository is part of the Udacity Robotics Software Engineer Nanodegree pro
 
 2. **Ball Tracker Node:** The second node subscribes to the camera feed and utilizes computer vision techniques to detect a white ball in the robot's environment. When the white ball is detected, the node sends a request to the service provided by the Drive Control Node, instructing the robot to move towards the ball.
 
+3. **AMCL Node:** This node is used to localize robot using amcl  
+
 ## Prerequisites
 
-- ROS Kinetic
+- ROS Kinetic/Melodic/Noetic
 - Gazebo
+- 
+  ``sudo apt-get install ros-${ROS_DISTRO}-navigation``
 
 ## Project Structure
 
@@ -48,7 +52,7 @@ This repository is part of the Udacity Robotics Software Engineer Nanodegree pro
 ## Localization 
 
 ![Localization](media/loc1.png)
-![Localization](media/loc2.png)
+![Localization](media/loc2.gif)
 
 ## Notes
 
