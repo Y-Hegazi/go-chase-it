@@ -20,6 +20,10 @@
     <param name="max_particles" value="6500"/>
     <param name="laser_min_range" value="0.1"/>
     <param name="laser_max_range" value="30.0"/>
+    <param name="odom_alpha1" value="0.1"/>
+    <param name="odom_alpha2" value="0.08"/>
+    <param name="odom_alpha3" value="0.08"/>
+    <param name="odom_alpha4" value="0.1"/>
     
 </node>
 
